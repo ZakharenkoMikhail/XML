@@ -1,1 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
 
+  <Bug_id>1</Bug_id>
+  <Title>Отображаются 1 из 2 удовлетворяющих результатов фильтрации по условию 'питомцы без хозяина', в разделе 'питомцы'.</Title>
+  <Environment>ОС: Windows 10 Версия: 21H1  Сборка: 19043.1889, Браузер: Google Chrome Версия: 104.0.5112.81 (Официальная сборка), (64 бит).</Environment>
+  <Precondition>1.Зайти на http://130.193.37.179/app/pets 2. Открыть раздел 'питомцы'</Precondition>
+  <STR>1. Кликнуть по кнопке 'питомцы без дома'</STR>
+  <AR>Отображаются 1 из 2 удовлетворяющих результатов фильтрации по условию 'питомцы без хозяина'</AR>
+  <ER>Отображаются все удовлетворяющие результаты фильтрации по условию (питомцы без хозяина) их 2</ER>
+  <Attachments>https://drive.google.com/file/d/1MUrALaPRYCMTLdBzEavqesMvYo5bve31/view?usp=sharing</Attachments>
+  <Severity>Major</Severity>
+  <Priority>High</Priority>
+  <Date>18.08.2022</Date>
+
+</bug_report>
